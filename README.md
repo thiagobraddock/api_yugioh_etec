@@ -1,2 +1,20 @@
-# api_yugioh_etec
-Usando uma biblioteca em js para acessar uma api de Yu-Gi-Oh
+# USANDO FETCH API
+
+Fetch é uma API em JavaScript, que substitui o antigo XMLHTTPRequest ou AJAX.
+Basicamente, usamos a API fetch para lidar com requisições http.
+
+## PROMISE
+
+const URL_TO_FETCH = 'URL'; 
+fetch(URL_TO_FETCH, { 
+   
+})
+.then(function(response) { 
+  // use a resposta 
+})
+.catch(function(err) { 
+    console.error(err); 
+});
+
+
+

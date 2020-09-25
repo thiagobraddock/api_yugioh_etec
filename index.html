@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh! Cards</title>
+</head>
+<body>
+    <h1>Cards Yu-Gi-Oh</h1>
+
+
+    <script>
+        const URL = "https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Blue-Eyes White Dragon"
+
+        fetch(URL).then(function(res){
+            res.json().then(function(data){
+                alert(data.data[0].name)
+            })
+        })
+    </script>
+</body>
+</html>

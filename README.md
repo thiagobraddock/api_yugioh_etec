@@ -6,18 +6,8 @@ Basicamente, usamos a API fetch para lidar com requisições http.
 
 Bla Bla Bla
 
-## PROMISE
+<img src="assets/images/tela.PNG">
 
-const URL_TO_FETCH = 'URL'; 
-fetch(URL_TO_FETCH, { 
-   
-})
-.then(function(response) { 
-  // use a resposta 
-})
-.catch(function(err) { 
-    console.error(err); 
-});
 
 
 
